@@ -44,7 +44,9 @@
   },
   "registry":"jspm",
   "jspm": {
-    "directories": {},
+    "directories": {
+      "lib": "src"
+    },
     "main": "src/index.js",
     "format": "es6",
     "dependencies": {
