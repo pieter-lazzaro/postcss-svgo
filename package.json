@@ -45,6 +45,8 @@
   "registry":"jspm",
   "jspm": {
     "directories": {},
+    "main": "src/index.js",
+    "format": "es6",
     "dependencies": {
       "svgo": "github:pieter-lazzaro/svgo@master"
     },
