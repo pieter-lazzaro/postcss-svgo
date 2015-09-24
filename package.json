@@ -25,6 +25,7 @@
   "devDependencies": {
     "babel": "^5.8.21",
     "babel-tape-runner": "^1.2.0",
+    "jspm": "^0.16.10",
     "pleeease-filters": "^2.0.0",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.0"
@@ -42,16 +43,24 @@
     "postcss-value-parser": "^2.0.5",
     "svgo": "^0.5.6"
   },
-  "registry":"jspm",
+  "registry": "jspm",
   "jspm": {
+    "main": "index.js",
+    "format": "es6",
     "directories": {
       "lib": "src"
     },
-    "main": "index.js",
-    "format": "es6",
     "dependencies": {
+      "is-svg": "npm:is-svg@^1.1.1",
+      "postcss": "npm:postcss@^5.0.2",
+      "postcss-safe-parser": "npm:postcss-safe-parser@^1.0.1",
+      "postcss-value-parser": "npm:postcss-value-parser@^2.0.5",
       "svgo": "github:pieter-lazzaro/svgo@master"
     },
-    "devDependencies": {}
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
