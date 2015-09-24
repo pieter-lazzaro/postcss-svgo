@@ -42,6 +42,7 @@
     "postcss-value-parser": "^2.0.5",
     "svgo": "^0.5.6"
   },
+  "registry":"jspm",
   "jspm": {
     "directories": {},
     "dependencies": {
