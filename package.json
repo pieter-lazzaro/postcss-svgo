@@ -50,6 +50,9 @@
     "directories": {
       "lib": "src"
     },
+    "files": [
+      "src"
+    ],
     "dependencies": {
       "is-svg": "npm:is-svg@^1.1.1",
       "postcss": "npm:postcss@^5.0.2",
